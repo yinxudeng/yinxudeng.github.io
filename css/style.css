@@ -1,7 +1,20 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background: #FFFFFF;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
 }
 
 header nav ul {
@@ -28,14 +41,59 @@ header nav ul li:last-child {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #F0F0F0;
     display: block;
     padding-left: 15px;
     transition: .5s background-color;
 }
 
-nav a:hover{
-    background-color: #aaa;
-    color: #444;
+nav a:hover {
+    background-color: #A0A0A0;
+    color: #404040;
     cursor: default;
+}
+
+.home {
+    text-align: center;
+}
+
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.circular--landscape img {
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
+}
+
+.container {
+    display: table;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.container div {
+    display: table-cell;
+    width: 50%;
+}
+
+.container .left ul {
+    width: 80%;
+    margin: auto;
+}
+
+.container .right p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
