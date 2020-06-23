@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+header nav ul {
+    list-style: none;
+    background-color: #303030;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    width: 15%;
+    border-right: 3px solid #FFFFFF;
+    height: 50px;
+    line-height: 50px;
+    font-size: 140%;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+header nav ul li:last-child {
+    border-right: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    transition: .5s background-color;
+}
+
+nav a:hover{
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
+}
