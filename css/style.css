@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+    font-size: 100%;
+}
+
+header {
+    font-size: 150%;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+section#about div.classes {
+    color: red;
+    width: 45%;
+    display: block;
+    background: green;
+    float: left;
+}
+    
+section#about div.self-introduction {
+    color: blue;
+    width: 45%;
+    display: block;
+    background: yellow;
+    float: left;
+}
+
+#experiences {
+    clear: both;
+}
