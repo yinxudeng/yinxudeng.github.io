@@ -1,56 +1,65 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
     background: #FFFFFF;
-    font-size: 150%;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
+    color: #ffffff;
+    font-size: 150%;
     float: none;
-    /* font-size: 200%; */
 }
 
 .navbar .navbar-collapse {
     text-align: center;
 }
 
-@media (min-width: 1000px){
-    .navbar-nav li {
-        margin-left : 1em;
-        margin-right : 1em;
-    }
-}
-
 #home {
     text-align: center;
-    background: #2E9CE6;
-    padding-top: 56px;
+    background: #2c69a0;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 
 .circular-landscape {
     display: inline-block;
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 50%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: -20px;
 }
 
 .circular-landscape img {
     width: 100%;
     height: auto;
-    margin-top: -60px;
+    margin-top: -70px;
 }
 
 h1 {
-    font-size: 250%;
-    margin: 0;
+    font-size: 400%;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
+
+hr.star-light {
+    max-width: 250px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    border-top: solid 5px #ffffff;
+}
+
+.fab {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+
 
 h2 {
     font-size: 200%;
@@ -63,7 +72,7 @@ h3 {
 }
 
 #about {
-    height: 100vh;
+    /* height: 100vh; */
     background: #30F0A0;
     padding-top: 56px;
 }
@@ -71,9 +80,9 @@ h3 {
 #classes {
     color: red;
     width: 45%;
-    display: block;
+    display: inline-block;
     background: green;
-    float: left;
+    /* float: left; */
     margin-right: 2%;
     border-radius: 20px;
 }  
@@ -85,27 +94,31 @@ h3 {
 #self-introduction {
     color: blue;
     width: 45%;
-    display: block;
+    display: inline-block;
     background: yellow;
-    float: left;
+    /* float: right; */
     margin-left: 2%;
     border-radius: 20px;
 }
 
 #experiences {
     clear: both;
-    height: 100vh;
-    background: #2E9CE6;
+    /* height: 100vh; */
+    background: #2c69a0;
     padding-top: 56px;
 }
 
 #projects {
-    height: 100vh;
+    /* height: 100vh; */
     background: #30F0A0;
     padding-top: 56px;
 }
 
 #contact {
-    background: #2E9CE6;
+    background: #2c69a0;
 }
 
+ul {
+    padding-left: 10px;
+    list-style: disc;
+}
