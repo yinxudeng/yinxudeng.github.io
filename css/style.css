@@ -3,64 +3,25 @@ body {
     margin: 0;
     padding: 0;
     background: #FFFFFF;
-    font-size: 100%;
-}
-
-header nav ul {
-    list-style: none;
-    background-color: #404040;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    /* top: 0px; */
-    width: 100%;
-}
-
-header nav ul li {
-    width: 15%;
-    border-right: 3px solid #FFFFFF;
-    height: 50px;
-    line-height: 50px;
     font-size: 150%;
+}
+
+.navbar .navbar-nav {
     display: inline-block;
+    float: none;
+    /* font-size: 200%; */
 }
 
-header nav ul li:last-child {
-    border-right: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #FFFFFF;
-    transition-property: all;
-    transition-duration: 0.5s;
-}
-
-header nav ul li a:hover {
-    color: #000000;
-}
-
-
-/* header {
-    font-size: 150%;
+.navbar .navbar-collapse {
     text-align: center;
 }
 
-header nav a {
-    text-decoration: none;
-    color: black;
-    background: gold;
-    display: inline-block;
-    width: 18%;
-    transition-property: all;
-    transition-duration: 1s;
+@media (min-width: 1000px){
+    .navbar-nav li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
 }
-
-header nav a:hover {
-    color: white;
-    background: yellowgreen;
-} */
 
 h1 {
     font-size: 250%;
