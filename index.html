@@ -19,13 +19,13 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="collapse navbar-collapse navbar-toggleable-xs" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="#home"> HOME </a></li>
                         <li><a href="#about"> ABOUT </a></li>
@@ -98,87 +98,124 @@
     <section id="experiences">
         <h2> EXPERIENCES </h2>
 
-        <div>
-            <p> Software Engineer Intern at IPMD Inc. </p>
-            <ul>
-                <li> Wrote Python scripts to automate data collection pipeline, and improved efficiency by a factor of 3
-                </li>
-                <li> Applied transfer learning to implement an image classification algorithm that detects emergencies
-                    from video footages </li>
-                <li> Used Django and AWS Elastic Beanstalk to build a web application for the model, and implemented
-                    user registration and login features </li>
-            </ul>
+        <div class="container">
+            <div class="left">
+                <p> Software Engineer Intern</p>
+                <p class="metadata"> IPMD Inc. </p>
+                <p class="metadata"> May 2020 &ndash; Aug 2020 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Wrote Python scripts to automate data collection pipeline, and improved efficiency by a factor of 3</li>
+                    <li> Applied transfer learning to implement an image classification algorithm that detects emergencies
+                        from video footages </li>
+                    <li> Used Django and AWS Elastic Beanstalk to build a web application for the model, and implemented
+                        user registration and login features </li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <p> Backend Web Developer Intern at Cloopen Ltd. </p>
-            <ul>
-                <li> Used Django to build the backend of a website to allow users to query data entries and perform CRUD
-                    operations </li>
-                <li> Wrote Python scripts to input 10,000 dummy entries, test different functionalities, and compile .py
-                    files into .pyc files </li>
-                <li> Utilized nginx and uWSGI to deploy the website on a Linux server </li>
-            </ul>
+        <div class="container">
+            <div class="left">
+                <p> Backend Web Developer Intern </p>
+                <p class="metadata"> Cloopen Ltd. </p> 
+                <p class="metadata"> Jun 2019 &ndash; Jul 2019 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Used Django to build the backend of a website to allow users to query data entries and perform CRUD
+                        operations </li>
+                    <li> Wrote Python scripts to input 10,000 dummy entries, test different functionalities, and compile .py
+                        files into .pyc files </li>
+                    <li> Utilized nginx and uWSGI to deploy the website on a Linux server </li>
+                </ul>
+            </div>
         </div>
+
     </section>
 
     <!-- Projects: CS Projects -->
     <section id="projects">
         <h2> PROJECTS </h2>
 
-        <div>
-            <p> Database (Java) </p>
-            <ul>
-                <li> Built B+ tree index for users to get, put, and remove leaf nodes, and allowed index initialization
-                    through bulk loading </li>
-                <li> Added various join algorithm including BNLJ, GHJ, and SMJ, and implemented the Selinger optimizer
-                    to find optimal query plans </li>
-                <li> Implemented multigranularity locking with strict 2PL and ARIES recovery protocol to ensure ACID
-                    properties </li>
-            </ul>
+        <div class="container">
+            <div class="left">
+                <p> Database (Java) </p>
+                <p class="metadata"> Aug 2020 &ndash; Dec 2020 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Built B+ tree index for users to get, put, and remove leaf nodes, and allowed index initialization
+                        through bulk loading </li>
+                    <li> Added various join algorithm including BNLJ, GHJ, and SMJ, and implemented the Selinger optimizer
+                        to find optimal query plans </li>
+                    <li> Implemented multigranularity locking with strict 2PL and ARIES recovery protocol to ensure ACID
+                        properties </li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <p> Pintos (C) </p>
-            <ul>
-                <li> Added argument passing, stack growth, dynamic memory allocation, process control syscalls, and file
-                    operation syscalls for user programs </li>
-                <li> Used condition variables to build a timer without busy waiting, and implemented a priority
-                    scheduler with priority donation </li>
-                <li> Integrated a buffer cache into the file system, and added support for extensible files and
-                    subdirectories </li>
-            </ul>
+        <div class="container">
+            <div class="left">
+                <p> Pintos (C) </p>
+                <p class="metadata"> Jun 2020 &ndash; Aug 2020 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Added argument passing, stack growth, dynamic memory allocation, process control syscalls, and file
+                        operation syscalls for user programs </li>
+                    <li> Used condition variables to build a timer without busy waiting, and implemented a priority
+                        scheduler with priority donation </li>
+                    <li> Integrated a buffer cache into the file system, and added support for extensible files and
+                        subdirectories </li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <p> NumC (C) </p>
-            <ul>
-                <li> Developed a Python array-processing API written in C to mimic functionalities of NumPy </li>
-                <li> Implemented multi-threading, SIMD, loop unrolling, exponentiation by squaring, and blocking to
+        <div class="container">
+            <div class="left">
+                <p> NumC (C) </p>
+                <p class="metadata"> Apr 2020 &ndash; May 2020 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Developed a Python array-processing API written in C to mimic functionalities of NumPy </li>
+                    <li> Implemented multi-threading, SIMD, loop unrolling, exponentiation by squaring, and blocking to
                     optimize matrix arithmetic </li>
-                <li> Achieved 130× speedup for matrix multiplications and 2000× speedup for matrix powering </li>
-            </ul>
+                    <li> Achieved 130× speedup for matrix multiplications and 2000× speedup for matrix powering </li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <p> GitLite (Java) </p>
-            <ul>
-                <li> Developed a version-control system written in Java to mimic functionalities of Git </li>
-                <li> Stored blob and commit objects via serialization, and avoided serializing the entire commit tree by
+        <div class="container">
+            <div class="left">
+                <p> GitLite (Java) </p>
+                <p class="metadata"> Nov 2019 &ndash; Dec 2019 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Developed a version-control system written in Java to mimic functionalities of Git </li>
+                    <li> Stored blob and commit objects via serialization, and avoided serializing the entire commit tree by
                     hashing pointers </li>
-                <li> Implemented common git commands including init, add, commit, rm, log, status, find, branch,
+                    <li> Implemented common git commands including init, add, commit, rm, log, status, find, branch,
                     rmbranch, reset, and merge </li>
-            </ul>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <p> jdCrawlers (Python) </p>
-            <ul>
-                <li> Developed a web scraper with Python and Beautiful Soup to scrape 3600+ products’ information per
-                    hour from jd.com </li>
-                <li> Set up a MySQL database to store product information including ID, name, price, and review </li>
-                <li> Created a price tracker with Python and smtplib to notify users of price changes via emails </li>
-            </ul>
+        <div class="container">
+            <div class="left">
+                <p> jdCrawlers (Python) </p>
+                <p class="metadata"> Jul 2019 &ndash; Jul 2019 </p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li> Developed a web scraper with Python and Beautiful Soup to scrape 3600+ products’ information per
+                        hour from jd.com </li>
+                    <li> Set up a MySQL database to store product information including ID, name, price, and review </li>
+                    <li> Created a price tracker with Python and smtplib to notify users of price changes via emails </li>
+                </ul>
+            </div>
         </div>
 
     </section>
@@ -186,7 +223,7 @@
     <!-- Contact -->
     <section id="contact">
         <h2> Contact </h2>
-        <p> temp </p>
+        <p> Feel free to drop me an email at <a href="mailto:deng.yinxu98@gmail.com">deng.yinxu98@gmail.com</a> or connect with me on LinkedIn. </p>
         <nav>
             <a href="https://www.linkedin.com/in/yindeng/" aria-label="LinkedIn" target="_blank"><i
                     class="fab fa-linkedin"></i></a>
@@ -198,6 +235,11 @@
                     class="fab fa-instagram"></i></a>
         </nav>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        Copyright &copy; Yinxu Deng 2021 
+    </footer>
 
 </body>
 
