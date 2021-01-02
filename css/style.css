@@ -3,6 +3,7 @@ body {
     background: #FFFFFF;
 }
 
+/* Style navigation bar  */
 .navbar .navbar-nav {
     display: inline-block;
     color: #ffffff;
@@ -14,11 +15,12 @@ body {
     text-align: center;
 }
 
+/* Style home section */
 #home {
     text-align: center;
     background: #2c69a0;
     padding-top: 90px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .circular-landscape {
@@ -59,46 +61,62 @@ hr.star-light {
     color: #ffffff;
 }
 
-
-
 h2 {
-    font-size: 200%;
-    font-variant: small-caps;
-    margin: 0;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h3 {
-    font-size: 120%;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #about {
-    /* height: 100vh; */
-    background: #30F0A0;
-    padding-top: 56px;
+    color: #000000;
+    background: #ffffff;
+    padding-top: 60px;
+}
+
+#classes h3 {
+    padding-bottom: 20px;
+}
+
+#classes ul {
+    padding-left: 40px;
+    list-style: disc;
+}
+
+#classes ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #classes {
-    color: red;
-    width: 45%;
-    display: inline-block;
-    background: green;
-    /* float: left; */
-    margin-right: 2%;
-    border-radius: 20px;
-}  
-
-#classes ul {
-    list-style-type: circle;
+    width: 50%;
+    font-size: 120%;
+    display: block;
+    float: left;
+    padding-left: 15%;
+    padding-bottom: 60px;
 }
 
 #self-introduction {
-    color: blue;
-    width: 45%;
-    display: inline-block;
-    background: yellow;
-    /* float: right; */
-    margin-left: 2%;
-    border-radius: 20px;
+    width: 50%;
+    font-size: 140%;
+    display: block;
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#self-introduction p {
+    line-height: 150%;
+    padding-left: 4%;
 }
 
 #experiences {
@@ -116,9 +134,4 @@ h3 {
 
 #contact {
     background: #2c69a0;
-}
-
-ul {
-    padding-left: 10px;
-    list-style: disc;
 }
