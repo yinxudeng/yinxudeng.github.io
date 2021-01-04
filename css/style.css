@@ -92,7 +92,7 @@ h3 {
 }
 
 #classes ul {
-    padding-left: 40px;
+    padding-left: 10%;
     list-style: disc;
 }
 
@@ -122,7 +122,7 @@ h3 {
 
 #self-introduction p {
     line-height: 150%;
-    padding-left: 4%;
+    padding-left: 10%;
 }
 
 /* Style experiences section */
@@ -168,7 +168,7 @@ h3 {
 }
 
 .right ul {
-    padding-left: 20px;
+    padding-left: 5%;
     list-style: disc;
 }
 
@@ -207,6 +207,7 @@ h3 {
 
 /* Style footer section */
 footer {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
