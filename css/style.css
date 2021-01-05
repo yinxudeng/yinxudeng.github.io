@@ -6,12 +6,13 @@ body {
 /* Style navigation bar  */
 .navbar {
     border: 0;
+    background: #363636;
 }
 
 #myNavbar a {
     margin-top: 0;
     margin-bottom:-5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .navbar-collapse {
@@ -115,56 +116,56 @@ h3 {
     padding-bottom: 2px;
 }
 
-/* If the screen is wide enough */
+/* If the screen is narrow */
 #classes {
-    width: 50%;
-    font-size: 120%;
+    width: 100%;
+    font-size: 100%;
     display: block;
-    float: left;
-    padding-left: 15%;
-    padding-bottom: 60px;
+    float: none;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-bottom: 40px;
 }
 
 #self-introduction {
-    width: 50%;
-    font-size: 135%;
+    width: 100%;
+    font-size: 100%;
     display: block;
-    float: right;
-    padding-right: 13%;
+    float: none;
     padding-left: 2%;
+    padding-right: 5%;
     padding-bottom: 60px;
 }
 
 #self-introduction p {
     line-height: 150%;
-    padding-left: 10%;
+    padding-left: 8%;
 }
 
-/* If the screen is narrow */
-@media screen and (max-width: 768px) {
+/* If the screen is wide */
+@media screen and (min-width: 768px) {
     #classes {
-        width: 100%;
-        font-size: 100%;
+        width: 50%;
+        font-size: 120%;
         display: block;
-        float: none;
-        padding-left: 2%;
-        padding-right: 5%;
-        padding-bottom: 40px;
+        float: left;
+        padding-left: 15%;
+        padding-bottom: 60px;
     }
 
     #self-introduction {
-        width: 100%;
-        font-size: 100%;
+        width: 50%;
+        font-size: 135%;
         display: block;
-        float: none;
+        float: right;
+        padding-right: 13%;
         padding-left: 2%;
-        padding-right: 5%;
         padding-bottom: 60px;
     }
-    
+
     #self-introduction p {
         line-height: 150%;
-        padding-left: 8%;
+        padding-left: 10%;
     }
 }
 
@@ -223,6 +224,7 @@ h3 {
 
 /* Style projects section */
 #projects {
+    color: #000000;
     background: #ffffff;
     padding-top: 60px;
 }
