@@ -4,6 +4,20 @@ body {
 }
 
 /* Style navigation bar  */
+.navbar {
+    border: 0;
+}
+
+#myNavbar a {
+    margin-top: 0;
+    margin-bottom:-5px;
+    border-radius: 5px;
+}
+
+.navbar-collapse {
+    padding-bottom: 0px;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     font-size: 150%;
@@ -58,7 +72,7 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
     color: rgba(256, 256, 256, 0.5);
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 .fab:hover {
