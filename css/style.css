@@ -278,12 +278,25 @@ h3 {
     background: #2c69a0;
     padding-top: 60px;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
+/* If the screen is narrow */
 #contact p {
-    font-size: 150%;
-    padding-bottom: 30px;
+    font-size: 120%;
+    padding-bottom: 20px;
+    line-height: 120%;
 }
+
+/* If the screen is wide */
+@media screen and (min-width: 768px) {
+    #contact p {
+        font-size: 150%;
+        padding-bottom: 30px;
+    }
+}
+
 
 #contact p a[href="mailto:deng.yinxu98@gmail.com"] {
     color: #ffffff;
@@ -296,6 +309,6 @@ h3 {
 /* Style footer section */
 footer {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-align: center;
 }
