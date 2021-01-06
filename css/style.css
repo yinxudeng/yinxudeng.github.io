@@ -190,10 +190,6 @@ h3 {
     line-height: 130%;
 }
 
-.left .metadata {
-    font-style: italic;
-}
-
 /* If the screen is narrow */
 .left {
     display: block;
@@ -203,6 +199,11 @@ h3 {
     font-size: 120%;
     padding-right: 5%;
     padding-bottom: 6px;
+}
+
+.left .metadata {
+    font-style: italic;
+    font-size: 80%;
 }
 
 .right {
@@ -215,7 +216,7 @@ h3 {
 
 .right ul {
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 3%;
     list-style: disc;
 }
 
@@ -241,11 +242,16 @@ h3 {
         padding-right: 5%;
     }
 
+    .left .metadata {
+        font-style: italic;
+        font-size: 100%;
+    }
+
     .right {
         display: block;
         width: 60%;
         float: right;
-        font-size: 130%;
+        font-size: 125%;
     }
 
     .right ul {
